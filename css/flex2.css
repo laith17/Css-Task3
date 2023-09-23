@@ -1,0 +1,39 @@
+.container {
+  background-color: #ffffba;
+  height: 600px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-box {
+  background-color: #fff;
+  height: 64%;
+  width: 56%;
+  padding: 30px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 0.5px solid #acacad;
+}
+
+.box:last-child {
+    border: none;
+}
+
+.box img {
+  width: 80px;
+  height: 80px;
+}
+
+p {
+  color: #acacad;
+}

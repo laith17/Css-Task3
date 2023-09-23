@@ -1,0 +1,41 @@
+.container {
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.box {
+  background-color: #efefef;
+  height: 180px;
+  padding: 10px;
+}
+
+.box2,
+.box3,
+.box9,
+.box12 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.box6 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.box7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.sub-box {
+  background-color: #cfcfcf;
+  padding: 5px;
+}
